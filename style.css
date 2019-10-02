@@ -463,3 +463,24 @@ input{
 input:focus + .inputstyle{
 	clip-path:inset(0% 0% 0% 0%);
 }
+
+/*checkbox*/
+label{
+	display:inline;
+}
+
+.checkbox1{
+	display:none;
+}
+
+.checkbox1 + label{
+	position:relative;
+	display:inline-block;
+	background-color:#fff;
+	border-radius:5px;
+	padding: 9px;
+}
+
+.checkbox1:checked + label{
+	background-color: #263238;
+}
