@@ -43,8 +43,7 @@ section,
 	border-bottom: 1px solid #ECEFF1;
 }
 .section--dark{
-	color: rgba(255,255,255,0.8);
-	background: #263238;
+	background: #CFD8DC;
 }
 
 
@@ -440,4 +439,10 @@ main{
     100%{
         opacity:0;
     }
+}
+
+/*form*/
+.formcontainer{
+	position:relative;
+	padding:0px 20px;
 }
