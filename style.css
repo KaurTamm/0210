@@ -483,4 +483,12 @@ label{
 
 .checkbox1:checked + label{
 	background-color: #263238;
+	animation-name:animationclip;
+	animation-duration:0.25s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes animationclip{
+	from{clip-path:inset(100% 100% 100% 100%);}
+	to{clip-path:inset(0% 0% 0% 0%);}
 }
