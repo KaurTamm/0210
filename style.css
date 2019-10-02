@@ -446,3 +446,20 @@ main{
 	position:relative;
 	padding:0px 20px;
 }
+
+input{
+	border:none;
+	background:#ECEFF1;
+}
+
+.inputstyle{
+	position:relative;
+	height:2px;
+	background:#263238;
+	transition:0.5s;
+	clip-path:inset(0% 100% 0% 100%);
+}
+
+input:focus + .inputstyle{
+	clip-path:inset(0% 0% 0% 0%);
+}
